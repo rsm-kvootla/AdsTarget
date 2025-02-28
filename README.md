@@ -1,14 +1,15 @@
-# TZ Gaming - Optimal Targeting of Mobile Ads
+# Optimal Targeting of Mobile Ads
 
 ## Overview
-This project analyzes different ad-targeting strategies for **TZ Gaming**, a mobile gaming company, to optimize customer acquisition through the **Vneta ad-network**. The goal is to determine the best targeting strategy using **logistic regression** and compare it with existing methods, including Vneta’s proprietary machine learning predictions.
+This project analyzes different ad-targeting strategies foR a mobile gaming company, to optimize customer acquisition through an external ad network The goal is to determine the best targeting strategy using **logistic regression** and compare it with existing methods, including the ad network’s proprietary machine learning predictions.
 
 ## Project Objectives
 1. **Evaluate different targeting strategies**:
    - Spam all prospects
    - Continue with the current targeting approach
    - Use a **logistic regression model** for ad targeting
-   - Use **Vneta’s proprietary predictions**
+   - Use **Ad Network’s proprietary predictions**
+   - Decide on which approach is better
 
 2. **Perform predictive modeling**:
    - Implement **logistic regression** to predict ad click-through rates (CTR)
@@ -80,21 +81,3 @@ The dataset consists of **115,488 impressions** where an ad was served. Each row
 - **Machine Learning** (Logistic Regression, Feature Engineering, Model Evaluation)
 - **Data Visualization** (Seaborn, Matplotlib for Gains Curve, Decile Analysis)
 
-## Usage
-To replicate the analysis:
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-repo/tz-gaming-optimal-targeting.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd tz-gaming-optimal-targeting
-   ```
-3. Install required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Run the **Jupyter Notebook**:
-   ```bash
-   jupyter notebook tz-gaming.ipynb
-   ```
